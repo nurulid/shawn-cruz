@@ -116,7 +116,26 @@ header:after{
 /* END OF HEADER */
 
 /* DONALD */
+#donald{
+    padding-top: 100px;
+    margin-top: 50px;
+    min-height: 300px;
+}
 
+#donald li{
+    list-style-type: none;
+    float: left;
+    width: 23%;
+    margin: 0 1%;
+    text-align: center;
+}
 
+#donald li img{
+    height: 40px;
+}
+
+#donald li h2{
+    margin: 15px 0;
+}
 /* END OF DONALD */
 
