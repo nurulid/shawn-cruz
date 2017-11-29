@@ -38,7 +38,6 @@ header{
 
 #logo{
     float: left;
-    width: 25%;
 }
 
 a#logo{
@@ -59,23 +58,25 @@ a#logo{
 
 nav{
     float: right;
-    width: 70%;
     margin-top: 10px;
-    
 }
 
 nav li{
     list-style-type: none;
     float: left;
-    margin-left: 7%;
-    text-align: right;
+    margin-left: 45px;
+    position: relative;
+    top: -5px;
 }
 
 nav li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    position: relative;
+}
+
+nav li a:hover{
+    color: #35a9db;
 }
 
 #banner{
@@ -97,7 +98,7 @@ nav li a{
 
 #banner p{
     font-size: 20px;
-    padding: 10px 0;
+    padding: 5px 0;
     letter-spacing: 0.2em;
 }
 
@@ -108,8 +109,8 @@ header:after{
 }
 /* END OF HEADER */
 
-/*  */
+/* DONALD */
 
 
-/* END OF  */
+/* END OF DONALD */
 
