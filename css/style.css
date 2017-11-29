@@ -8,7 +8,7 @@ body{
     font-size: 16px;
     line-height: 1.5em;
     font-family: Segoe UI;
-    color: #000;
+    color: #515151;
 }
 
 /* GLOBAL */
@@ -119,7 +119,8 @@ header:after{
 #donald{
     padding-top: 100px;
     margin-top: 50px;
-    min-height: 300px;
+    padding-bottom: 100px;
+    min-height: 200px;
 }
 
 #donald li{
@@ -137,5 +138,44 @@ header:after{
 #donald li h2{
     margin: 15px 0;
 }
+
+#donald:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 /* END OF DONALD */
+
+/* INTERNET ADVERTISING */
+#internet{
+    padding-top: 20px;
+    text-align: center;
+    min-height: 400px;
+}
+
+#internet h2{
+    font-size: 40px;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+#internet p{
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding-bottom: 70px;
+}
+
+#internet li{
+    list-style-type: none;
+    margin-bottom: -10px;
+    float: left;
+}
+
+#internet li img{
+    height: 200px;
+    width: 268px;
+}
+
+/* END OF INTERNET ADVERTISING */
+
 
