@@ -57,6 +57,19 @@ sr.reveal('#deskripsi ul', {
     delay: 1000,
     distance:'500px'
 });
+sr.reveal('#contextual h2', {
+    duration: 1000,
+    origin:'bottom'
+});
+sr.reveal('#contextual h2 + p', {
+    duration: 2000,
+    origin:'bottom',
+    delay: 1000
+});
+sr.reveal('#contextual li', {
+    duration: 4000,
+    origin:'top'
+});
 
 
 
