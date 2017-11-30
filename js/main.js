@@ -54,8 +54,7 @@ sr.reveal('#deskripsi p', {
 sr.reveal('#deskripsi ul', {
     duration: 2000,
     origin:'right',
-    delay: 1000,
-    distance:'500px'
+    delay: 1000
 });
 sr.reveal('#contextual h2', {
     duration: 1000,
