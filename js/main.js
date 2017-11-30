@@ -1,0 +1,58 @@
+// Scroll Reveal
+window.sr = ScrollReveal();
+sr.reveal('#logo', {
+    duration: 1000,
+    origin:'left'
+});
+sr.reveal('nav', {
+    duration: 1000,
+    origin:'top',
+    distance:'300px'
+});
+sr.reveal('#banner img', {
+    duration: 3000,
+    origin:'top',
+    distance:'500px'
+});
+sr.reveal('#banner h1',{
+    duration: 2000,
+    origin:'left'
+});
+sr.reveal('#banner p', {
+    duration: 4000,
+    origin:'left'
+});
+sr.reveal('#donald li', {
+    duration: 2000,
+    origin:'right'
+});
+sr.reveal('#internet h2', {
+    duration: 2000,
+    origin:'left'
+});
+sr.reveal('#internet p', {
+    duration: 3000,
+    origin:'right'
+});
+sr.reveal('#internet li', {
+    duration: 2000,
+    origin:'left'
+});
+
+
+
+$(function() {
+      // Smooth Scrolling
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
