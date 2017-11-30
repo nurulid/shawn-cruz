@@ -148,7 +148,7 @@ header:after{
 
 /* INTERNET ADVERTISING */
 #internet{
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
     min-height: 400px;
 }
@@ -176,6 +176,59 @@ header:after{
     width: 268px;
 }
 
+#internet:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 /* END OF INTERNET ADVERTISING */
+
+/* GOOD RESPONSIVE */
+#good-responsive{
+    min-height: 400px;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+#good-responsive li{
+    list-style-type: none;
+}
+
+#gambar{
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+}
+
+#gambar img{
+    height: 25%;
+    width: 100%;
+}
+
+#deskripsi{
+    width: 55%;
+    float: left;
+}
+
+#deskripsi h2{
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #35a9db;
+}
+
+#deskripsi p{
+    margin-bottom: 20px;
+}
+
+#deskripsi li{
+    margin-bottom: 10px;
+}
+
+
+
+/* END OF GOOD RESPONSIVE */
+
 
 

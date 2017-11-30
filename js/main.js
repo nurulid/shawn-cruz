@@ -38,21 +38,39 @@ sr.reveal('#internet li', {
     duration: 2000,
     origin:'left'
 });
+sr.reveal('#gambar', {
+    duration: 2000,
+    origin:'left'
+});
+sr.reveal('#deskripsi h2', {
+    duration: 500,
+    origin:'right'
+});
+sr.reveal('#deskripsi p', {
+    duration: 2000,
+    origin:'right',
+    distance:'300px'
+});
+sr.reveal('#deskripsi ul', {
+    duration: 2000,
+    origin:'right',
+    delay: 1000,
+    distance:'500px'
+});
 
 
 
-$(function() {
-      // Smooth Scrolling
-      $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
-    });
+
+// Smooth Scrolling
+$('a[href*="#"]:not([href="#"])').click(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+    $('html, body').animate({
+        scrollTop: target.offset().top
+    }, 1000);
+    return false;
+    }
+    }
+});
