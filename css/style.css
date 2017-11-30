@@ -85,6 +85,10 @@ nav li a:hover{
     color: #35a9db;
 }
 
+nav li a img{
+    opacity: 0.6;
+}
+
 #banner{
     color: #fff;
     text-align: center;
@@ -157,6 +161,7 @@ header:after{
     font-size: 40px;
     font-weight: normal;
     padding-bottom: 30px;
+    line-height: 1em;
 }
 
 #internet p{
