@@ -190,7 +190,7 @@ header:after{
 
 /* GOOD RESPONSIVE */
 #good-responsive{
-    min-height: 400px;
+    min-height: 300px;
     padding-top: 100px;
     margin-top: 50px;
 }
@@ -231,9 +231,59 @@ header:after{
     margin-bottom: 10px;
 }
 
-
+#good-responsive:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
 /* END OF GOOD RESPONSIVE */
+
+/* CONTEXTUAL */
+#contextual{
+    text-align: center;
+    min-height: 400px;
+    padding-top: 50px;
+    color: #fff;
+    background: url('../img/bg-contextual.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contextual h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#contextual h2 + p{
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    margin-bottom: 100px;
+}
+
+#contextual li{
+    list-style-type: none;
+    float: left;
+    width: 23%;
+    margin: 0 1%;
+}
+
+#contextual li h3{
+    font-size: 25px;
+    margin: 10px 0 5px;
+    font-weight: normal;
+}
+
+#contextual:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* END OF CONTEXTUAL */
+
 
 
 
