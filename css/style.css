@@ -389,6 +389,50 @@ header:after{
 }
 /* END OF JONATHAN */
 
+/* OUTDOOR */
+#outdoor{
+    background: rgb(240, 240, 240);
+    min-height: 500px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#outdoor h2{
+    font-weight: normal;
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+
+#outdoor p:nth-child(2){
+    letter-spacing: 0.2em;
+    margin-bottom: 50px;
+}
+
+#outdoor p + img:nth-child(3){
+    border-radius: 50%;
+    border: 4px solid #ddd;
+    margin-bottom: 30px;
+}
+
+#outdoor p:nth-child(4){
+    width: 75%;
+    margin: 0 auto 20px;
+}
+
+#outdoor h3{
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+
+#outdoor:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* END OF OUTDOOR */
+
 @keyframes progress{
     0%{transform: translateX(0px)}
     20%{width: 100%}

@@ -34,14 +34,11 @@ sr.reveal('#internet p', {
     duration: 3000,
     origin:'right'
 });
-sr.reveal('#internet li', {
+sr.reveal('#internet li , #gambar', {
     duration: 2000,
     origin:'left'
 });
-sr.reveal('#gambar', {
-    duration: 2000,
-    origin:'left'
-});
+
 sr.reveal('#deskripsi h2', {
     duration: 500,
     origin:'right'
@@ -93,13 +90,25 @@ sr.reveal('#francis', {
     duration: 3000,
     origin:'left'
 });
-sr.reveal('#herbert', {
+sr.reveal('#herbert , #matthew', {
     duration: 3000,
     origin:'left'
 });
-sr.reveal('#matthew', {
-    duration: 3000,
+sr.reveal('#outdoor h2, #outdoor h2 + p' , {
+    duration: 2000,
     origin:'left'
+});
+sr.reveal('#outdoor p + img' , {
+    duration: 1000,
+    origin:'bottom'
+});
+sr.reveal('#outdoor img + p' , {
+    duration: 1000,
+    origin:'left'
+});
+sr.reveal('#outdoor h3' , {
+    duration: 3000,
+    origin:'top'
 });
 
 
