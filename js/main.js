@@ -69,6 +69,38 @@ sr.reveal('#contextual li', {
     duration: 4000,
     origin:'top'
 });
+sr.reveal('#jonathan li h2', {
+    duration: 500,
+    origin:'bottom'
+});
+sr.reveal('#first p', {
+    duration: 2000,
+    origin:'top'
+});
+sr.reveal('#first a', {
+    duration: 2500,
+    origin:'top'
+});
+sr.reveal('#twitter', {
+    duration: 3000,
+    origin:'top'
+});
+sr.reveal('#skills', {
+    duration: 1000,
+    origin:'top'
+});
+sr.reveal('#francis', {
+    duration: 3000,
+    origin:'left'
+});
+sr.reveal('#herbert', {
+    duration: 3000,
+    origin:'left'
+});
+sr.reveal('#matthew', {
+    duration: 3000,
+    origin:'left'
+});
 
 
 
