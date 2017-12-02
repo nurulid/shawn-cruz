@@ -533,6 +533,12 @@ footer #right img{
     width: 50px;
     border: 2px solid #515151;
 }
+
+#arrow{
+    position: fixed;
+    left: 90%;
+    bottom: 70px;
+}
 /* END OF FOOTER */
 
 @keyframes progress{
