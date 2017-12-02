@@ -86,14 +86,6 @@ sr.reveal('#skills', {
     duration: 1000,
     origin:'top'
 });
-sr.reveal('#francis', {
-    duration: 3000,
-    origin:'left'
-});
-sr.reveal('#herbert , #matthew', {
-    duration: 3000,
-    origin:'left'
-});
 sr.reveal('#outdoor h2, #outdoor h2 + p' , {
     duration: 2000,
     origin:'left'

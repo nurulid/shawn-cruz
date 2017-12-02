@@ -294,12 +294,12 @@ header:after{
 
 #jonathan ul#main > li{
     list-style-type: none;
-    width: 32%;
+    width: 30%;
     float: left;
 }
 
 #jonathan ul#main > li:nth-child(2){
-    margin: 0 2.5% 0 1.5%;
+    margin: 0 6.5% 0 3.5%;
 }
 
 #jonathan h2{
@@ -313,7 +313,11 @@ header:after{
     margin-bottom: 25px;
 }
 
-#jonathan ul#main a{
+#jonathan #first p{
+    text-align: justify;
+}
+
+#jonathan #first a{
     text-decoration: none;
     padding: 6px 25px;
     background: #35a9db;
@@ -322,7 +326,7 @@ header:after{
     transition-delay: 0.5s;
 }
 
-#jonathan ul#main a:hover{
+#jonathan #first a:hover{
     background: #055b7e;
     transition: 1s;
 
