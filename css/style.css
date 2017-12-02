@@ -539,6 +539,13 @@ footer #right img{
     left: 90%;
     bottom: 70px;
 }
+
+.block {
+    display: block;
+}
+.none {
+    display: none;
+}
 /* END OF FOOTER */
 
 @keyframes progress{

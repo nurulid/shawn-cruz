@@ -131,3 +131,14 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && lo
     }
     }
 });
+
+// Arrow hilang
+window.onscroll = function() {muncul()};
+
+function muncul() {
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        document.getElementById("arrow").className = "block";
+    } else {
+        document.getElementById("arrow").className = "none";
+    }
+}
