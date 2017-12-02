@@ -102,6 +102,18 @@ sr.reveal('#outdoor h3' , {
     duration: 3000,
     origin:'top'
 });
+sr.reveal('.brand-img' , {
+    duration: 1000,
+    origin:'bottom'
+});
+sr.reveal('footer h2' , {
+    duration: 3000,
+    origin:'top'
+});
+sr.reveal('#left, #right, #center' , {
+    duration: 1500,
+    origin:'center'
+});
 
 
 
