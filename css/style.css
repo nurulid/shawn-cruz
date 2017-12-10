@@ -661,6 +661,7 @@ footer #right img{
     #contextual li{
         width: calc(100%);
         padding: 5%;
+        box-sizing: border-box;
     }
     #outdoor h2{
         font-size: 25px;
