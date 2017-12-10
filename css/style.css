@@ -102,13 +102,13 @@ nav li a img{
 
 #banner h1{
     font-size: 50px;
-    padding: 20px 0;
-    line-height: 1em;
+    padding: 20px;
+    line-height: 1.1em;
 }
 
 #banner p{
     font-size: 20px;
-    padding: 5px 0;
+    padding: 5px 10px;
     letter-spacing: 0.2em;
 }
 
@@ -127,12 +127,18 @@ header:after{
     min-height: 200px;
 }
 
+#donald ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #donald li{
     list-style-type: none;
-    float: left;
-    width: 23%;
-    margin: 0 1%;
+    flex: 0 1 calc(100%/4);
+    padding: 0 1%;
+    box-sizing: border-box;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #donald li img{
@@ -160,8 +166,8 @@ header:after{
 #internet h2{
     font-size: 40px;
     font-weight: normal;
-    padding-bottom: 30px;
-    line-height: 1em;
+    padding: 0 30px 30px;
+    line-height: 1.1em;
 }
 
 #internet p{
@@ -170,10 +176,16 @@ header:after{
     padding-bottom: 70px;
 }
 
+#internet ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #internet li{
+    flex: 0 1 268px;
     list-style-type: none;
     margin-bottom: -10px;
-    float: left;
 }
 
 #internet li img{
@@ -193,6 +205,7 @@ header:after{
     min-height: 300px;
     padding-top: 100px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #good-responsive li{
@@ -244,6 +257,7 @@ header:after{
     text-align: center;
     min-height: 400px;
     padding-top: 50px;
+    padding-bottom: 50px;
     color: #fff;
     background: url('../img/bg-contextual.jpg') no-repeat top center;
     background-size: cover;
@@ -266,8 +280,9 @@ header:after{
 #contextual li{
     list-style-type: none;
     float: left;
-    width: 23%;
-    margin: 0 1%;
+    width: calc(100%/4);
+    padding: 0 1%;
+    box-sizing: border-box;
 }
 
 #contextual li h3{
@@ -398,7 +413,8 @@ header:after{
     background: rgb(240, 240, 240);
     min-height: 500px;
     padding-top: 100px;
-    text-align: center;
+    text-align: center;   
+    padding-bottom: 50px;
 }
 
 #outdoor h2{
@@ -446,19 +462,25 @@ header:after{
 #brand li:nth-child(1), #brand li:nth-child(8){
     width: 2%;
     position: relative;
-    top: 20px;
+    top: 37px;
 }
 
-#brand li{
+#brand ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
-    width: 12%;
-    float: left;
-    padding: 0 1.5%;
+}
+
+#brand .brand-img{
+    flex: 0 1 calc(100%/6);
+    padding: 10% 15%;
+    box-sizing: border-box;
 }
 
 #brand img.brand-img{
-    width: 80%;
-    opacity: 0.6;
+    width: 150px;
+    opacity: 0.4;
 }
 
 #brand:after{
@@ -537,7 +559,7 @@ footer #right img{
 #arrow{
     position: fixed;
     left: 90%;
-    bottom: 70px;
+    bottom: 10%;
 }
 
 .block {
@@ -551,6 +573,98 @@ footer #right img{
 @keyframes progress{
     0%{transform: translateX(0px)}
     20%{width: 100%}
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 2000px){
+    #arrow{
+        left: 80%;
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #donald li{
+        flex: 0 1 calc(100%/2);
+
+    }
+    #contextual li{
+        width: calc(100%/2);
+        padding: 3% 1%;
+    }
+    #jonathan ul#main > li:nth-child(2){
+        margin: 5% 5% 5% 5%;
+    }
+    #jonathan ul#main > li{
+        width: 90%;
+        margin: 5% 5%;
+    }
+    footer ul#footer > li{
+        width: 100%;
+        padding: 5% 0;
+    }
+    #arrow{
+        left: 87%;
+        bottom: 10%;
+    }
+    #arrow img{
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    #donald li{
+        flex: 0 1 calc(100%);
+
+    }
+    #gambar{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    #deskripsi{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #banner{
+        top: 50px;
+    }
+
+    #banner h1{
+        font-size: 35px;
+        line-height: 1em;
+    }
+    #banner p{
+        letter-spacing: 0.1em;
+    }
+    #internet h2{
+        font-size: 30px;
+        padding: 0 30px 10px;
+    }
+    #internet p{
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        padding-bottom: 50px;
+    }
+    #contextual h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #contextual h2 + p{
+        font-size: 15px;
+    }
+    #contextual li{
+        width: calc(100%);
+        padding: 5%;
+    }
+    #outdoor h2{
+        font-size: 25px;
+    }
+    #outdoor p:nth-child(2){
+        letter-spacing: 0.1em;
+    }
 }
 
 
