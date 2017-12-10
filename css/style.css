@@ -648,6 +648,9 @@ footer #right img{
         letter-spacing: 0.1em;
         padding-bottom: 50px;
     }
+    #contextual{
+        background-attachment: scroll;
+    }
     #contextual h2{
         font-size: 25px;
         margin-bottom: 10px;
