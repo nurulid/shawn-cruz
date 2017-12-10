@@ -36,7 +36,7 @@ sr.reveal('#internet p', {
 });
 sr.reveal('#internet li , #gambar', {
     duration: 2000,
-    origin:'left'
+    origin:'bottom'
 });
 
 sr.reveal('#deskripsi h2', {
@@ -45,7 +45,7 @@ sr.reveal('#deskripsi h2', {
 });
 sr.reveal('#deskripsi p', {
     duration: 2000,
-    origin:'right',
+    origin:'bottom',
     distance:'300px'
 });
 sr.reveal('#deskripsi ul', {
