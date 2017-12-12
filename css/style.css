@@ -307,14 +307,15 @@ header:after{
     margin-bottom: 100px;
 }
 
-#jonathan ul#main > li{
-    list-style-type: none;
-    width: 30%;
-    float: left;
+#jonathan ul#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-#jonathan ul#main > li:nth-child(2){
-    margin: 0 6.5% 0 3.5%;
+#jonathan ul#main > li{
+    list-style-type: none;
+    flex: 0 1 calc(90%/3);
 }
 
 #jonathan h2{
@@ -354,6 +355,8 @@ header:after{
 }
 
 #jonathan ul#twitter img{
+    position: relative;
+    left: -15px;    
     display: block;
     padding-right: 5px;
     
@@ -362,7 +365,7 @@ header:after{
 #jonathan ul#twitter span{
     position: relative;
     top: -30px;
-    left: 35px;
+    left: 15px;
 }
 
 #jonathan ul#skills li{
@@ -593,12 +596,9 @@ footer #right img{
         width: calc(100%/2);
         padding: 3% 1%;
     }
-    #jonathan ul#main > li:nth-child(2){
-        margin: 5% 5% 5% 5%;
-    }
     #jonathan ul#main > li{
-        width: 90%;
-        margin: 5% 5%;
+        flex: 0 1 calc(100%);
+        margin-bottom: 70px;
     }
     footer ul#footer > li{
         width: 100%;
