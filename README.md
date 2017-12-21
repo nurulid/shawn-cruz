@@ -7,5 +7,5 @@ The design is not mine, I got the PSD file from here https://www.youtube.com/wat
 
 <b>ScrollReveal</b> from here https://github.com/jlmakes/scrollreveal
 
-## Check Demo https://nurulid.github.io/shawn-cruz
+## Live Preview https://nurulid.github.io/shawn-cruz
 <b>responsive</b>
