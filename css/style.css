@@ -650,6 +650,11 @@ footer #right img{
         margin: 3px 0;
         background-color: #fff;
     }
+
+    .naik{
+        position: relative;
+        top: 40px !important;
+    }
     
 }
 

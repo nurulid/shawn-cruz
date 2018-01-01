@@ -155,6 +155,7 @@ $('.search').click(function(){
 });
 
 //open burger menu
-$("#burger-menu").on("click", function(){
+$("#burger-menu").click(function(){
     $("nav li").toggleClass("block");
+    $('#banner').toggleClass("naik");    
 })
