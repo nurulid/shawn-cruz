@@ -623,6 +623,36 @@ footer #right img{
     }
 }
 
+@media screen and (max-width: 1024px){
+    #logo, nav{
+        float: none;
+        width: 100%;
+    }
+
+    nav li{
+        float: none;
+        margin-left: 0px;
+        text-align: center;
+        padding: 7px;
+        display: none;
+    }
+    
+    #burger-menu{
+        margin-top: -43px;
+        float: right;
+        cursor: pointer;
+    }
+
+    .white{
+        display: block;
+        width: 25px;
+        padding: 2px;
+        margin: 3px 0;
+        background-color: #fff;
+    }
+    
+}
+
 @media screen and (max-width: 768px){
     #donald li{
         flex: 0 1 calc(100%/2);

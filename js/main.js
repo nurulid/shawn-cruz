@@ -144,7 +144,6 @@ function muncul() {
 }
 
 // Search
-
 $('.search').click(function(){
     $('.inse').toggle('block');
     $('a.cari').toggle('block');
@@ -154,3 +153,8 @@ $('.search').click(function(){
     });
     $('a.cari').attr('href', '#');
 });
+
+//open burger menu
+$("#burger-menu").on("click", function(){
+    $("nav li").toggleClass("block");
+})
