@@ -27,6 +27,14 @@ body{
     clear: both;
 }
 
+.block{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
 /* END OF GLOBAL */
 
 /* HEADER */
@@ -70,7 +78,7 @@ nav{
 nav li{
     list-style-type: none;
     float: left;
-    margin-left: 45px;
+    margin-left: 25px;
     position: relative;
     top: -5px;
 }
@@ -117,6 +125,41 @@ header:after{
     display: block;
     clear: both;
 }
+
+img.search{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+input.inse{
+    width: 150px;
+    margin-left: 10px;
+    position: relative;
+    top: -12px;
+    padding: 5px;
+    color: #fff;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+input:focus.inse{
+    outline: 0 none;
+    border: 2px solid #fff;
+}
+
+.cari img{
+    position: relative;
+    left: -30px;
+    top: -3.5px;
+    background: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 1;
+    padding: 6px;
+}
+
+
 /* END OF HEADER */
 
 /* DONALD */
@@ -563,13 +606,6 @@ footer #right img{
     position: fixed;
     left: 90%;
     bottom: 10%;
-}
-
-.block {
-    display: block;
-}
-.none {
-    display: none;
 }
 /* END OF FOOTER */
 

@@ -142,3 +142,15 @@ function muncul() {
         document.getElementById("arrow").className = "none";
     }
 }
+
+// Search
+
+$('.search').click(function(){
+    $('.inse').toggle('block');
+    $('a.cari').toggle('block');
+    $('img.search').css({
+        'position': 'relative',
+        'top': '-7px'
+    });
+    $('a.cari').attr('href', '#');
+});
